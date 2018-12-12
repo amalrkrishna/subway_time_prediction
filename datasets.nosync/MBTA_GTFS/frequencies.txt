@@ -1,0 +1,11 @@
+trip_id,start_time,end_time,headway_secs
+Logan-22-Weekday-trip,08:00:00,22:00:00,360
+Logan-22-Weekend-trip,12:00:00,19:00:00,360
+Logan-33-Weekday-trip,08:00:00,22:00:00,420
+Logan-33-Weekend-trip,12:00:00,19:00:00,360
+Logan-55-Weekday-trip,00:00:00,09:00:00,600
+Logan-55-Weekday-trip,22:00:00,24:00:00,600
+Logan-55-Weekend-trip,00:00:00,12:00:00,600
+Logan-55-Weekend-trip,22:00:00,24:00:00,600
+Logan-66-Weekday-trip,06:00:00,22:30:00,600
+Logan-66-Weekend-trip,06:00:00,22:30:00,600

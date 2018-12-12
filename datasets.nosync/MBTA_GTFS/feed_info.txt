@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
+MBTA,http://www.mbta.com,EN,20181018,20181222,"Fall 2018, 2018-10-25T12:35:16+00:00, version D"
