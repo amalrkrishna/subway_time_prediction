@@ -44,8 +44,8 @@ Final features after interpolation and weather data integration -
 17. travel_time - time it took for the train to travel the segment
 
 ## Model Designs
-1. Ordinary Least Squares - In statistics, OLS is a type of linear least squares method for estimating the unknown parameters in a linear regression model. OLS chooses the parameters of a linear function of a set of explanatory variables by the principle of least squares: minimizing the sum of the squares of the differences between the observed dependent variable (values of the variable being predicted) in the given dataset and those predicted by the linear function. OLS from statsmodel is used for this project. OLS is a bit sensitive to the outliers. It cannot describe non-linear relationships.
-2. Generalized Linear Model - In statistics, the generalized linear model (GLM) is a flexible generalization of ordinary linear regression that allows for response variables that have error distribution models other than a normal distribution. The GLM generalizes linear regression by allowing the linear model to be related to the response variable via a link function and by allowing the magnitude of the variance of each measurement to be a function of its predicted value. GLM from statsmodel is used to build the model. 
+1. Ordinary Least Squares - In statistics, OLS is a type of linear least squares method for estimating the unknown parameters in a linear regression model. OLS from statsmodel is used for this project. OLS is a bit sensitive to the outliers. 
+2. Generalized Linear Model - In statistics, the generalized linear model (GLM) is a flexible generalization of ordinary linear regression that allows for response variables that have error distribution models other than a normal distribution. 
 3. Dense Neural Network - The DNN is created using 3 layers. Model is compiled using mean absolute error as the loss function and adam as the optimizer. Also, between each two layer a dropout layer is added RELU and softmax are used as the activation functions. The following hyperparameters are passed on to the model – 
     a.    Loss – mean absolute error
     b.    Optimizer – adam
