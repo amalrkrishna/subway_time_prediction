@@ -1,5 +1,6 @@
 *.DS_Store
 *.docx
+*.xlsx
 ./datasets.nosync/OLS-3.19-39.34.pkl
 ./datasets.nosync/intrapolated_data.csv
 ./datasets.nosync/data_intermediate_01.pkl
