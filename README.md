@@ -70,10 +70,10 @@ Final features after interpolation and weather data integration -
 ## Implementation
 Shiny is an open source R package that provides an elegant and powerful web framework for building web applications using R. Here, shiny integrates the real-time MBTA predictions to show real time locations and next expected inbound and outbound arrival times using the implemented machine learning models.
 ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/implementation.png)
-    a. **Route** – Gives you an option to filter based on MBTA Rapid transit routes. Example – Green-B, Red, Orange etc.
-    b. **Select your stop** – Gives you the option to select the stop for which you want to see the next inbound and outbound arrival times. Example – Boston University West, Park Street etc.
-    c. **Refresh Interval** – Update frequency for the map and the arrival times.
-    d. **Inbound, Outbound filters** – filters the map based on the entry.
+    a. **Route** – Gives you an option to filter based on MBTA Rapid transit routes. Example – Green-B, Red, Orange etc.  
+    b. **Select your stop** – Gives you the option to select the stop for which you want to see the next inbound and outbound arrival times. Example – Boston University West, Park Street etc.  
+    c. **Refresh Interval** – Update frequency for the map and the arrival times.  
+    d. **Inbound, Outbound filters** – filters the map based on the entry.  
 
 
 ## References
