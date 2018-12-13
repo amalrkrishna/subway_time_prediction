@@ -46,8 +46,11 @@ Final features after interpolation and weather data integration -
 ## Model Designs
 1. Ordinary Least Squares
 2. Generalized Linear Model
-3. XGBoost Regressor
-4. Dense Neural Network
+3. Dense Neural Network
+![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/Models.png)
+4. XGBoost Regressor
+
+
 
 ## Result Analysis
 
