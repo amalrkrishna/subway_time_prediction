@@ -53,11 +53,11 @@ Final features after interpolation and weather data integration -
     d.    **Dropout** – 0.5  
     e.    **Validation Split** – 0.2  
     f.    **epochs** – 100  
-    g.    **Batch Size**– 100  
+    g.    **Batch Size** – 100  
     Keras library is used to build the model. Keras is an open source neural network library written in Python. It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, or Theano.
 ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/Models.png)
 
-4. **XGBoost Regressor** - XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. It implements machine learning algorithms under the Gradient Boosting framework. XGBoost provides a parallel tree boosting (also known as GBDT, GBM) that solve many data science problems in a fast and accurate way. The following parameters are passed on to the mode –  
+4. **XGBoost Regressor** - XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. It implements machine learning algorithms under the Gradient Boosting framework. XGBoost provides a parallel tree boosting (also known as GBDT, GBM) that solve many data science problems in a fast and accurate way. The following parameters are passed on to the model –  
     a.    **n estimators** – 100 (number of trees)  
     b.    **Learning rate** – 0.05 (step size shrinkage used in update to prevent overfitting)  
     c.    **Max depth** – 6 (maximum depth of a tree)  
@@ -68,7 +68,13 @@ Final features after interpolation and weather data integration -
 ## Result Analysis
 
 ## Implementation
+Shiny is an open source R package that provides an elegant and powerful web framework for building web applications using R. Here, shiny integrates the real-time MBTA predictions to show real time locations and next expected inbound and outbound arrival times using the implemented machine learning models.
 ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/implementation.png)
+    a. **Route** – Gives you an option to filter based on MBTA Rapid transit routes. Example – Green-B, Red, Orange etc.
+    b. **Select your stop** – Gives you the option to select the stop for which you want to see the next inbound and outbound arrival times. Example – Boston University West, Park Street etc.
+    c. **Refresh Interval** – Update frequency for the map and the arrival times.
+    d. **Inbound, Outbound filters** – filters the map based on the entry.
+
 
 ## References
 [1] Dynamic Bus Arrival Time Prediction with Artificial Neural Networks, Journal of Transportation Engineering  
