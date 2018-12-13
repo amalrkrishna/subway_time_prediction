@@ -53,7 +53,7 @@ Final features after interpolation and weather data integration -
     d.    **Dropout** – 0.5  
     e.    **Validation Split** – 0.2  
     f.    **epochs** – 100  
-    g.    **Batch Size **– 100  
+    g.    **Batch Size**– 100  
     Keras library is used to build the model. Keras is an open source neural network library written in Python. It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, or Theano.
 ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/Models.png)
 
