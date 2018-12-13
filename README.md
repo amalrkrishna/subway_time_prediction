@@ -52,6 +52,7 @@ Final features after interpolation and weather data integration -
 ## Result Analysis
 
 ## Implementation
+![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/implementation.png)
 
 ## References
 [1] Dynamic Bus Arrival Time Prediction with Artificial Neural Networks, Journal of Transportation Engineering  
