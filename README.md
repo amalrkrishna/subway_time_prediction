@@ -44,11 +44,24 @@ Final features after interpolation and weather data integration -
 17. travel_time - time it took for the train to travel the segment
 
 ## Model Designs
-1. Ordinary Least Squares
-2. Generalized Linear Model
-3. Dense Neural Network
+1. Ordinary Least Squares - In statistics, OLS is a type of linear least squares method for estimating the unknown parameters in a linear regression model. OLS chooses the parameters of a linear function of a set of explanatory variables by the principle of least squares: minimizing the sum of the squares of the differences between the observed dependent variable (values of the variable being predicted) in the given dataset and those predicted by the linear function. OLS from statsmodel is used for this project. OLS is a bit sensitive to the outliers. It cannot describe non-linear relationships.
+2. Generalized Linear Model - In statistics, the generalized linear model (GLM) is a flexible generalization of ordinary linear regression that allows for response variables that have error distribution models other than a normal distribution. The GLM generalizes linear regression by allowing the linear model to be related to the response variable via a link function and by allowing the magnitude of the variance of each measurement to be a function of its predicted value. GLM from statsmodel is used to build the model. 
+3. Dense Neural Network - The DNN is created using 3 layers. Model is compiled using mean absolute error as the loss function and adam as the optimizer. Also, between each two layer a dropout layer is added RELU and softmax are used as the activation functions. The following hyperparameters are passed on to the model – 
+    a.    Loss – mean absolute error
+    b.    Optimizer – adam
+    c.    Activation functions – relu & soft_max
+    d.    Dropout – 0.5
+    e.    Validation Split – 0.2
+    f.    epochs – 100
+    g.    Batch Size – 1003.6 Contrast between approaches
+    Keras library is used to build the model. Keras is an open source neural network library written in Python. It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, or Theano.
 ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/Models.png)
-4. XGBoost Regressor
+
+4. XGBoost Regressor - XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. It implements machine learning algorithms under the Gradient Boosting framework. XGBoost provides a parallel tree boosting (also known as GBDT, GBM) that solve many data science problems in a fast and accurate way. The following parameters are passed on to the mode – 
+    a.    n estimators – 100 (number of trees) 
+    b.    Learning rate – 0.05 (step size shrinkage used in update to prevent overfitting)
+    c.    Max depth – 6 (maximum depth of a tree)
+    Xgboost library is used to build the model. 
 
 
 
