@@ -54,13 +54,12 @@ Final features after interpolation and weather data integration -
 ## Implementation
 
 ## References
-[1] Dynamic Bus Arrival Time Prediction with Artificial Neural Networks, Journal of Transportation Engineering
-[2] Bus-Arrival-Time Prediction Models Link-Based and Section-Based. Journal of transportation engineering
-[3] Kalaputa, R. and Demetsky, M. (1995). Application of artificial neural networks and anutomatic vehicle location data for bus transit schedule behavior modelling.
-[4] Xu. Jing Ying. Bus arrival time prediction with real-time and historic data.
-[5] Tingting Yin , Gang Zhong , Jian Zhang , Shanglu He , Bin Ran. A prediction model of bus arrival time at stops with multi-routes multi-routes
-[6] Mei Chen, Xiaobo Liu, Jingxin Xia & Steven I. Chien A Dynamic Bus-Arrival Time Prediction Model Based on APC Data 
-[7] Tingting Yin, Gang Zhong, Jian Zhang, Shanglu He, Bin Ran. School of Transportation, Southeast University, World Conference on Transport research. WTRC 2016 – Shanghai
-[8] Bus Transit Time Prediction using GPS Data with Artificial Neural Networks, Fan Jiang, Carnegie Mellon University (Thesis) – 2017
-[9] A prediction model of bus arrival time at stops with multi-routes. Tingting Yin, Gang Zhong, Jian Zhang, Shanglu He, Bin Ran. School of Transportation, Southeast University, World Conference on Transport research. WTRC 2016 - Shanghai
-
+[1] Dynamic Bus Arrival Time Prediction with Artificial Neural Networks, Journal of Transportation Engineering  
+[2] Bus-Arrival-Time Prediction Models Link-Based and Section-Based. Journal of transportation engineering  
+[3] Kalaputa, R. and Demetsky, M. (1995). Application of artificial neural networks and anutomatic vehicle location data for bus transit schedule behavior modelling  
+[4] Xu. Jing Ying. Bus arrival time prediction with real-time and historic data  
+[5] Tingting Yin , Gang Zhong , Jian Zhang , Shanglu He , Bin Ran. A prediction model of bus arrival time at stops with multi-routes multi-routes  
+[6] Mei Chen, Xiaobo Liu, Jingxin Xia & Steven I. Chien A Dynamic Bus-Arrival Time Prediction Model Based on APC Data  
+[7] Tingting Yin, Gang Zhong, Jian Zhang, Shanglu He, Bin Ran. School of Transportation, Southeast University, World Conference on Transport research. WTRC 2016 – Shanghai  
+[8] Bus Transit Time Prediction using GPS Data with Artificial Neural Networks, Fan Jiang, Carnegie Mellon University (Thesis) – 2017  
+[9] A prediction model of bus arrival time at stops with multi-routes. Tingting Yin, Gang Zhong, Jian Zhang, Shanglu He, Bin Ran. School of Transportation, Southeast University, World Conference on Transport research. WTRC 2016 - Shanghai  
