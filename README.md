@@ -82,14 +82,14 @@ From the above graphs we can note that OLS is a bit sensitive to the outliers. I
 4.   **MAPE** - Mean Absolute Percentage Error measures the average percentage derivation from real travel time. 
 5.   **RMSE** - Root Mean Squared Error measures average derivation. Compared to Mean Absolute Error, RMSE puts large weights on large errors.
 
-MEANy (sec)    MBE    MAE (sec)    MAPE (%)    RMSE
-| ------------- | ------------- | ------------- | ------------- | ------------- | 
-| OLS.all  |   710.76  |   -1.04  |   194.08 |    44.21  |   250.99| 
-| GLM.all  |   712.5  |   7.15  |   283.43  |   38.56    5936.15| 
-| XGB.all  |   711.98  |   54.8  |   58.79   |  7.7  |   83.77| 
-| DNN.10%  |   713.26  |   -7.97  |   217.94  |   43.06  |   273.21| 
-| DNN.50%  |   712.77  |   38.41  |   248.63  |   45.7  |   320.07| 
-| DNN.all  |   713.14  |   11.55  |   268.74  |   53.45  |   338.08| 
+| MEANy (sec)  |   MBE  |   MAE (sec)  |   MAPE (%)   |  RMSE|  
+| ------------- | ------------- | ------------- | ------------- | ------------- |  
+| OLS.all  |   710.76  |   -1.04  |   194.08 |    44.21  |   250.99 |  
+| GLM.all  |   712.5  |   7.15  |   283.43  |   38.56    5936.15 |  
+| XGB.all  |   711.98  |   54.8  |   58.79   |  7.7  |   83.77 |  
+| DNN.10%  |   713.26  |   -7.97  |   217.94  |   43.06  |   273.21 |  
+| DNN.50%  |   712.77  |   38.41  |   248.63  |   45.7  |   320.07 |  
+| DNN.all  |   713.14  |   11.55  |   268.74  |   53.45  |   338.08 |  
 
 
 
