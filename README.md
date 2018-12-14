@@ -75,6 +75,8 @@ s
 ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/DNN.png)
 4. XGBoost Regressor
 ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/XGB.png)
+
+From the above graphs we can note that OLS is a bit sensitive to the outliers. It cannot describe non-linear relationships. Major shortcoming of GLM from the results is that it failed to identify the outliers in the data-points. Not detecting extreme travel-times is really bad for this case scenario where we don’t want the traveler to miss the train. The shortcoming of the DNN was it failed to recognize the time series nature of the data. Better models like LSTM would ideally be a better fit for the given problem statement. XGBoost Regressor performed resonably well with the hold-out test dataset.
 ### Error metrics
 1.   **MEANy** – Mean of the y_test values.
 2.   **MBE** - Mean Bias Error measures the average difference between predict travel time and real travel time. Positive error and negative error will cancel out. 
