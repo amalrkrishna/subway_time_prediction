@@ -70,7 +70,7 @@ Final features after interpolation and weather data integration -
 2. **GLM**
 ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/GLM.png)
 3. **Dense Neural Network**
-| ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/DNN.png) |  ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/dnn_loss.png) |
+![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/DNN.png) ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/dnn_loss.png)
 4. **XGBoost Regressor**
 ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/XGB.png)
 
