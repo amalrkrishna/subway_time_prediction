@@ -102,10 +102,8 @@ The different approaches taken to solve the problem statement was to pass the da
 
 | Time    MEANy (sec) |    MBE |    MAE (sec)  |   MAPE (%) |    RMSE |   
 | ------------- | ------------- | ------------- | ------------- | ------------- |  
-| 11am-3pm 
-(non-peak hours)  |   712.34   |  54.53 |    58.69 |    7.74  |   81.35|  
-| 4pm-8pm 
-(peak hours)  |   641.25  |   48.83  |   53.58   |  7.92 |    75.94|  
+| 11am-3pm (non-peak hours)  |   712.34   |  54.53 |    58.69 |    7.74  |   81.35|  
+| 4pm-8pm (peak hours)  |   641.25  |   48.83  |   53.58   |  7.92 |    75.94|  
 
 
 
