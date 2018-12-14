@@ -100,10 +100,14 @@ The different approaches taken to solve the problem statement was to pass the da
 | Green-C Line  |  663.37  |  51.5  |  54.83  |  7.75  |  78.14 |  
 | Green-D Line  |  650.2  |  50.04 |   54.07  |  7.6  |  79.17 |  
 
+We can see that the errors are higher in Red line. There is a clear pattern to how a fast a route is, Red line is considered to travel faster as there is no interaction with traffic in comparison with Green lines. This has contributed to the increased error rate as we see from the table. 
+
 | Time  |  MEANy (sec) |    MBE |    MAE (sec)  |   MAPE (%) |    RMSE |   
 | ------------- | ------------- | ------------- | ------------- | ------------- |  ------------- |  
 | 11am-3pm (non-peak hours)  |   712.34   |  54.53 |    58.69 |    7.74  |   81.35|  
 | 4pm-8pm (peak hours)  |   641.25  |   48.83  |   53.58   |  7.92 |    75.94|  
+
+Here we can see that MAPE increase more during peak hours. This is in sync with the results observed in [7] where peak and non-peak travel times where predicted using ANN and SVM models.
 
 
 
@@ -115,6 +119,11 @@ Shiny is an open source R package that provides an elegant and powerful web fram
     c. **Refresh Interval** – Update frequency for the map and the arrival times.  
     d. **Inbound, Outbound filters** – filters the map based on the entry.  
 
+## What did not work
+❌    Dense Neural Network - I believe LSTM networks would be a better fit for this problem. As I added more features, the accuracy of the network did improve but it kept reducing as I added more data points. I suspect the model might be overfitting. Networks like LSTM which can handle time series data much better, will be a better approach to this problem statement.
+❌     GLM - High RMSE shows that the model does not do well to predict the outliers. This is bad for the problem statement as we want to avoid the person missing the train. Due to this reason, I went against moving ahead with the GLM model.
+❌     Failed to get historical traffic information – Even though I made significant searches through the internet, I was not able to get historic traffic information for Boston. There was APIs for real-time traffic information though. One of the small steps to overcome this was to feed in distance from the location to the city center. As this distance increases, traffic should reduce. Still this is not an effective solution as traffic is one of the main factors that impact travel time of trains.
+❌    Failed to integrate Ashmont section of Red line. As the red line split into Ashmont and Braintree at JFK, it became difficult to manage both sequence of stops into the system. Braintree segment exists within the system, but Ashmont doesn’t.
 
 ## References
 [1] Dynamic Bus Arrival Time Prediction with Artificial Neural Networks, Journal of Transportation Engineering  
