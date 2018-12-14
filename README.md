@@ -1,7 +1,7 @@
 # MBTA Arrival time prediction
 
 ## Objective
-The objective of this project is to predict train arrival times in the boston subway. I developed 4 models (OLS, GLM, XGBoost and a Dense Neural Network) to make the travel time predictions. All 4 models predict the segment route travel time with features computed directly from the train GPS data collected over a week, weather information and prior knowledge. The aim was to use limited information and implement innovative feature engineering methods from the existing data. This was done with the vision to scale the project easily to other cities and mediums like buses.
+The objective of this project is to predict train arrival times in the boston subway. I developed 4 models (OLS, GLM, XGBoost and a Dense Neural Network) to make the travel time predictions. All 4 models predict the segment route travel time with features computed directly from the train GPS data collected over a week, weather information and prior knowledge. The aim was to use limited information and implement innovative feature engineering methods from the existing data. This was done with the vision to scale the project easily to other cities and transportation mediums like buses.
 
 ## Overall Design
 ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/DataPipeline.png)
@@ -66,6 +66,19 @@ Final features after interpolation and weather data integration -
 
 
 ## Result Analysis
+### Predict vs y_test comparison
+1. OLS
+![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/OLS.png)
+2. GLM
+![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/GLM.png)
+### Error metrics
+1.    MEANy – Mean of the y_test values.
+2.    MBE - Mean Bias Error measures the average difference between predict travel time and real travel time. Positive error and negative error will cancel out. 
+3.    MAE - Mean Absolute Error measures the average derivation of prediction from real travel time. 
+4.    MAPE - Mean Absolute Percentage Error measures the average percentage derivation from real travel time. 
+5.    RMSE - Root Mean Squared Error measures average derivation. Compared to Mean Absolute Error, RMSE puts large weights on large errors.
+
+
 
 ## Implementation
 Shiny is an open source R package that provides an elegant and powerful web framework for building web applications using R. Here, shiny integrates the real-time MBTA predictions to show real time locations and next expected inbound and outbound arrival times using the implemented machine learning models.
