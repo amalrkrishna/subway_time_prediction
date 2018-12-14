@@ -64,13 +64,17 @@ Final features after interpolation and weather data integration -
     Xgboost library is used to build the model. 
 
 
-
+s
 ## Result Analysis
 ### Predict vs y_test comparison
 1. OLS
 ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/OLS.png)
 2. GLM
 ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/GLM.png)
+3. Dense Neural Netsork
+![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/DNN.png)
+4. XGBoost Regressor
+![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/XGB.png)
 ### Error metrics
 1.   **MEANy** – Mean of the y_test values.
 2.   **MBE** - Mean Bias Error measures the average difference between predict travel time and real travel time. Positive error and negative error will cancel out. 
