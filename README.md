@@ -72,11 +72,11 @@ Final features after interpolation and weather data integration -
 2. GLM
 ![alt text](https://github.com/amalrkrishna/subway_time_prediction/blob/master/images/GLM.png)
 ### Error metrics
-1.    MEANy – Mean of the y_test values.
-2.    MBE - Mean Bias Error measures the average difference between predict travel time and real travel time. Positive error and negative error will cancel out. 
-3.    MAE - Mean Absolute Error measures the average derivation of prediction from real travel time. 
-4.    MAPE - Mean Absolute Percentage Error measures the average percentage derivation from real travel time. 
-5.    RMSE - Root Mean Squared Error measures average derivation. Compared to Mean Absolute Error, RMSE puts large weights on large errors.
+1.   **MEANy** – Mean of the y_test values.
+2.   **MBE** - Mean Bias Error measures the average difference between predict travel time and real travel time. Positive error and negative error will cancel out. 
+3.   **MAE** - Mean Absolute Error measures the average derivation of prediction from real travel time. 
+4.   **MAPE** - Mean Absolute Percentage Error measures the average percentage derivation from real travel time. 
+5.   **RMSE** - Root Mean Squared Error measures average derivation. Compared to Mean Absolute Error, RMSE puts large weights on large errors.
 
 
 
