@@ -91,6 +91,21 @@ From the above graphs we can note that OLS is a bit sensitive to the outliers. I
 | DNN.50%  |   712.77  |   38.41  |   248.63  |   45.7  |   320.07 |  
 | DNN.all  |   713.14  |   11.55  |   268.74  |   53.45  |   338.08 |  
 
+The different approaches taken to solve the problem statement was to pass the data through 4 different models and pick the best one for real-time prediction. The Error results show that XGBoost Regressor does the best with a MAE of 59 seconds and MAPE of 7.7%. It is also noted that GLM has a really high RMSE value, corresponding to its inability to identify outliers even if it’s MAPE is just 39%. OLS does a pretty good job for a linear mode with 194 seconds MAE and 44% MAPE. Having a low MBE shows that it could be cancelling out the positive and negative errors. The Dense neural network goes down with increased data load which was an unexpected result. This probably explain the fact that DNN was unable to identify the time series nature or the data, or it may have started overfitting. Based on the data for which XGBoost was trained, it performs for short distances, because of this a weighted combination of XGBoost for shorter distances and Moving average filter for longer distances is also shown in the application. Comparisons with similar existing publications [7], [8], [9] shows that the observed errors are similar or within range. The model also follows the pattern of error variation by peak hours as seen in [7].
+
+| Route   | MEANy (sec)  |  MBE  |  MAE (sec)  |  MAPE (%)  |  RMSE |  
+| ------------- | ------------- | ------------- | ------------- | ------------- |  
+| Red Line  |  756.85  |  58.12  |  63.12  |  7.79  |  88.82 |  
+| Green-B Line  |  687.23  |  52.94  |  55.85  |  7.65  |  78.09 |  
+| Green-C Line  |  663.37  |  51.5  |  54.83  |  7.75  |  78.14 |  
+| Green-D Line  |  650.2  |  50.04 |   54.07  |  7.6  |  79.17 |  
+
+| Time    MEANy (sec) |    MBE |    MAE (sec)  |   MAPE (%) |    RMSE |   
+| ------------- | ------------- | ------------- | ------------- | ------------- |  
+| 11am-3pm 
+(non-peak hours)  |   712.34   |  54.53 |    58.69 |    7.74  |   81.35|  
+| 4pm-8pm 
+(peak hours)  |   641.25  |   48.83  |   53.58   |  7.92 |    75.94|  
 
 
 
